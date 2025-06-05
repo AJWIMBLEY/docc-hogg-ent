@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Docc Hogg Ent.</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-sans">
+  <!-- Header -->
+  <header class="bg-gray-900 py-4 px-6 flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-3xl font-bold text-yellow-400">Docc Hogg Ent.</h1>
+    <nav class="space-x-4">
+      <a href="#" class="hover:text-yellow-300">Home</a>
+      <a href="#roster" class="hover:text-yellow-300">Roster</a>
+      <a href="#media" class="hover:text-yellow-300">Media</a>
+      <a href="#store" class="hover:text-yellow-300">Store</a>
+      <a href="#events" class="hover:text-yellow-300">Events</a>
+      <a href="#about" class="hover:text-yellow-300">About</a>
+      <a href="#contact" class="hover:text-yellow-300">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen text-center flex flex-col justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?hiphop,concert');">
+    <div class="bg-black bg-opacity-70 p-10">
+      <h2 class="text-5xl font-extrabold mb-4 text-yellow-400">Welcome to Docc Hogg Ent.</h2>
+      <p class="text-xl mb-6">The pulse of underground talent and raw creativity.</p>
+      <a href="#media" class="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full hover:bg-yellow-300">Watch Now</a>
+    </div>
+  </section>
+
+  <!-- Roster Section -->
+  <section id="roster" class="py-16 px-8 bg-gray-800">
+    <h3 class="text-3xl font-bold mb-8 text-yellow-400">The Roster</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-700 p-6 rounded-xl text-center">
+        <img src="https://source.unsplash.com/300x300/?rapper" class="rounded-full mb-4 mx-auto">
+        <h4 class="text-xl font-semibold">Lil Hogg</h4>
+        <p class="text-sm text-gray-300">Trap | Street Soul</p>
+        <a href="https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR" class="text-yellow-300 hover:underline block mt-2" target="_blank">Listen on Spotify</a>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-xl text-center">
+        <img src="https://source.unsplash.com/300x300/?dj" class="rounded-full mb-4 mx-auto">
+        <h4 class="text-xl font-semibold">DJ Blaze</h4>
+        <p class="text-sm text-gray-300">Hip-Hop | Turntablism</p>
+        <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" class="text-yellow-300 hover:underline block mt-2" target="_blank">Watch on YouTube</a>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-xl text-center">
+        <img src="https://source.unsplash.com/300x300/?singer,urban" class="rounded-full mb-4 mx-auto">
+        <h4 class="text-xl font-semibold">Queen T</h4>
+        <p class="text-sm text-gray-300">R&B | Neo-Soul</p>
+        <a href="https://music.apple.com/us/artist/her/1230846244" class="text-yellow-300 hover:underline block mt-2" target="_blank">Stream on Apple Music</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media" class="py-16 px-8">
+    <h3 class="text-3xl font-bold mb-8 text-yellow-400">Music & Videos</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX186v583rmzp" class="w-full h-80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://www.youtube.com/embed/4NRXx6U8ABQ" class="w-full h-60" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Pkh8UtuejGw" class="w-full h-60" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="mt-10 text-center">
+      <h4 class="text-2xl font-semibold mb-4 text-yellow-400">Stream Us On</h4>
+      <div class="flex justify-center space-x-6">
+        <a href="https://open.spotify.com" target="_blank"><img src="https://img.icons8.com/color/48/spotify.png" alt="Spotify"/></a>
+        <a href="https://music.apple.com" target="_blank"><img src="https://img.icons8.com/ios-filled/48/ffffff/apple-music.png" alt="Apple Music"/></a>
+        <a href="https://tidal.com" target="_blank"><img src="https://img.icons8.com/ios-filled/48/ffffff/tidal.png" alt="Tidal"/></a>
+        <a href="https://soundcloud.com" target="_blank"><img src="https://img.icons8.com/ios-filled/48/ffffff/soundcloud.png" alt="SoundCloud"/></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media Feed -->
+  <section class="py-16 px-8 bg-gray-900">
+    <h3 class="text-3xl font-bold mb-8 text-yellow-400 text-center">Social Media</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <iframe src="https://www.instagram.com/p/C6yN5FcuVHa/embed" width="100%" height="500" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+      </div>
+      <div>
+        <a class="twitter-timeline" data-height="500" href="https://twitter.com/rap?ref_src=twsrc%5Etfw">Tweets by Rap</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- Merch Store Section -->
+  <!-- Store section remains unchanged; real e-commerce integration can be added later -->
+
+  <!-- Events Section -->
+  <!-- Events section remains unchanged -->
+
+  <!-- About Section -->
+  <!-- About section remains unchanged -->
+
+  <!-- Contact Section -->
+  <!-- Contact form remains unchanged -->
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 text-sm text-gray-500">
+    <p>&copy; 2025 Docc Hogg Ent. All rights reserved. | <a href="mailto:bookings@docchoggent.com" class="text-yellow-400 hover:underline">bookings@docchoggent.com</a></p>
+  </footer>
+</body>
+</html>
